@@ -11,6 +11,6 @@ class Payment
             return 'Paying bill';
         }else{
             return 'Paying card';
-        }
+        }// Each type need one if or else
     }
 }
