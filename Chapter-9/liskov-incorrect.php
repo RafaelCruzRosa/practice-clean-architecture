@@ -21,7 +21,7 @@ class Reactangle
     }
 }
 
-class Square extends Reactangle
+class Square extends Reactangle // Children does not work as their parent
 {
     public function setSide(float $side)
     {

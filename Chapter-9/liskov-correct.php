@@ -52,5 +52,5 @@ $rectangle = new Rectangle(2, 3);
 
 $shapeCalc = new ShapeCalc();
 
-echo $shapeCalc->calcTotalArea($square);
-echo $shapeCalc->calcTotalArea($rectangle);
+$shapeCalc->calcTotalArea($square); // 4
+$shapeCalc->calcTotalArea($rectangle); // 6
